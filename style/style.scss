@@ -18,4 +18,32 @@ html{
 .holiday{
     height: 20rem;
     position: absolute;
+    transition: all 0.3s;
+    outline-offset: 1rem;
+}
+
+.og{
+    top: 5rem;
+    left: 15%
+}
+
+.dog{
+    top: 2rem;
+    right: 0;
+}
+
+.road_trip{
+    top: -2rem;
+    left: 0;
+}
+
+.holiday:hover{
+    transform: scale(1.3);
+    outline: 1rem solid purple;
+    z-index: 2;
+}
+
+.holiday-gallery:hover .holiday:not(:hover){
+    transform: scale(0.8);
+    opacity: 0.5;
 }
