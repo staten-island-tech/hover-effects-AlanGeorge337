@@ -20,7 +20,18 @@ html{
     width: 20vh;
     font-size: 2rem;
     border-radius: 1rem;
+}
 
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.35;
 }
 
 .holiday-parent{

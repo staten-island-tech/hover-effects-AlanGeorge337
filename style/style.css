@@ -29,6 +29,19 @@ html {
   border-radius: 1rem;
 }
 
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.35;
+  transition: all 0.35;
+}
+
 .holiday-parent {
   width: 65rem;
   height: 45rem;
