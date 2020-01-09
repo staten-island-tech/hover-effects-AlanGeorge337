@@ -21,7 +21,7 @@ html{
     height: 10vh;
     width: 20vh;
     border-radius: 1rem;
-    position: absolute;
+    position: relative;
 }
 
 .btn{
@@ -30,18 +30,13 @@ html{
     transition-duration: 0.4s;
 }
 
-.btn:hover{
-    content: "";
+.btn-whole:hover{
     display: inline-block;
     top: 0;
     left: -1rem;
-    z-index: -1;
-
-}
-
-.btn-whole{
-    height: 10vh;
-    width: 20vh;
+    z-index: 2;
+    animation-duration: 0.35s;
+    transform: scale(1.5);
 }
 
 
@@ -89,7 +84,9 @@ html{
 }
 
 .pokemon{
-    height: 15rem;
-    border-radius: 25%;
-    animation-duration: 0.35s;
+    height: 25rem;
+    background-color: seagreen;
+    border-radius: 1rem;
+    transform: scale(1.7);
+
 }
