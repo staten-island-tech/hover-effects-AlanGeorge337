@@ -7,7 +7,7 @@ html{
 }
 
 .whole{
-    height: 100%;
+    height: 100rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -42,7 +42,7 @@ html{
 
 .holiday-parent{
     width: 65rem;
-    height: 45rem;
+    height: 75rem;
 }
 
 .holiday-gallery{
@@ -84,9 +84,35 @@ html{
 }
 
 .pokemon{
-    height: 25rem;
-    background-color: seagreen;
-    border-radius: 1rem;
-    transform: scale(1.7);
+    height: 50rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
 
+.pokemon:hover{
+    filter: contrast(175%);
+    transform: scale(1.7);
+    border-radius: 0;
+}
+
+.splashed_text{
+    height: 20rem;
+    font-size: 5rem;
+    transition: all 0.5s;
+    background-image: url("media/graffiti.jpg");
+    color: plum;
+    background-clip: text;
+    background-position: center;
+}
+
+.splashed_text:hover{
+    transform: skew(-30deg);
+    letter-spacing: 2rem;
+}
+
+.clown{
+    height: 75rem;
+    width: 75rem;
+    border-radius: 50%;
+    left: 30%;
 }
