@@ -110,9 +110,34 @@ html{
     letter-spacing: 2rem;
 }
 
-.clown{
-    height: 75rem;
-    width: 75rem;
-    border-radius: 50%;
-    left: 30%;
+.doggo{
+    height: 30rem;
+    position: relative;
+}
+
+.doggo-wow{
+   height: 30rem; 
+   clip-path: circle();
+   transition: all 0.5s;
+}
+
+.aaaah{
+    font-size: 4rem;
+    opacity: 0;
+    color: plum;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+.doggo:hover .aaaah{
+   opacity: 1;
+   top: 50%; 
+}
+
+.doggo:hover .doggo-wow{
+    
 }

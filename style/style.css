@@ -126,10 +126,35 @@ html {
   letter-spacing: 2rem;
 }
 
-.clown {
-  height: 75rem;
-  width: 75rem;
-  border-radius: 50%;
-  left: 30%;
+.doggo {
+  height: 30rem;
+  position: relative;
+}
+
+.doggo-wow {
+  height: 30rem;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.aaaah {
+  font-size: 4rem;
+  opacity: 0;
+  color: plum;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.doggo:hover .aaaah {
+  opacity: 1;
+  top: 50%;
 }
 /*# sourceMappingURL=style.css.map */
