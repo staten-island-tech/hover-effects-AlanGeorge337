@@ -32,7 +32,8 @@ html {
 
 .btn {
   padding: 2vh 4vh;
-  font-size: 2rem;
+  font-size: 1rem;
+  color: white;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
 }
