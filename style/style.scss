@@ -15,7 +15,6 @@ html{
     position: relative;
 }
 
-
 .btn-whole{
     background-color: rebeccapurple;
     height: 10vh;
@@ -84,20 +83,20 @@ html{
 }
 
 .pokemon{
-    height: 50rem;
+    height: 20rem;
     border-radius: 50%;
     transition: all 0.5s;
 }
 
 .pokemon:hover{
     filter: contrast(175%);
-    transform: scale(1.7);
+    transform: scale(1.2);
     border-radius: 0;
 }
 
 .splashed_text{
-    height: 20rem;
-    font-size: 5rem;
+    height: 40rem;
+    font-size: 15rem;
     transition: all 0.5s;
     background-image: url("media/graffiti.jpg");
     color: plum;
@@ -111,7 +110,7 @@ html{
 }
 
 .doggo{
-    height: 30rem;
+    height: 2rem;
     position: relative;
 }
 
@@ -124,7 +123,7 @@ html{
 .aaaah{
     font-size: 4rem;
     opacity: 0;
-    color: plum;
+    color: blueviolet;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -136,8 +135,4 @@ html{
 .doggo:hover .aaaah{
    opacity: 1;
    top: 50%; 
-}
-
-.doggo:hover .doggo-wow{
-    
 }

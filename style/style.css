@@ -95,7 +95,7 @@ html {
 }
 
 .pokemon {
-  height: 50rem;
+  height: 20rem;
   border-radius: 50%;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -104,14 +104,14 @@ html {
 .pokemon:hover {
   -webkit-filter: contrast(175%);
           filter: contrast(175%);
-  -webkit-transform: scale(1.7);
-          transform: scale(1.7);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   border-radius: 0;
 }
 
 .splashed_text {
-  height: 20rem;
-  font-size: 5rem;
+  height: 40rem;
+  font-size: 15rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-image: url("media/graffiti.jpg");
@@ -127,7 +127,7 @@ html {
 }
 
 .doggo {
-  height: 30rem;
+  height: 2rem;
   position: relative;
 }
 
@@ -142,7 +142,7 @@ html {
 .aaaah {
   font-size: 4rem;
   opacity: 0;
-  color: plum;
+  color: blueviolet;
   position: absolute;
   top: 100%;
   left: 50%;
